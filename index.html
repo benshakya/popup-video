@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PopUp video</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <img
+        src="https://images.pexels.com/photos/850097/pexels-photo-850097.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="mountain"
+      />
+      <h1>7 Peaks</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sunt
+        eveniet officia perspiciatis, quidem quam suscipit recusandae dicta
+        ipsum. Labore minus consectetur aut, exercitationem eaque magni et
+        placeat voluptatibus enim?
+      </p>
+      <button class="btn">Watch trailer</button>
+    </div>
+    <div class="video-container inactive">
+      <video src="trailer.mp4" controls></video>
+      <i class="fa-solid fa-xmark close-btn"></i>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
